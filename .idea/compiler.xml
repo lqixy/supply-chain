@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for supplychain" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../maven/repository/org/mapstruct/mapstruct-processor/1.3.0.Final/mapstruct-processor-1.3.0.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/repository/com/jolira/hickory/1.0.0/hickory-1.0.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/repository/org/mapstruct/mapstruct/1.3.0.Final/mapstruct-1.3.0.Final.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/repository/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/repository/com/google/guava/guava/19.0/guava-19.0.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/repository/com/puppycrawl/tools/checkstyle/8.14/checkstyle-8.14.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/repository/javax/inject/javax.inject/1/javax.inject-1.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/repository/org/codehaus/plexus/plexus-container-default/1.6/plexus-container-default-1.6.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-test/4.0.3.RELEASE/spring-test-4.0.3.RELEASE.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-beans/4.0.3.RELEASE/spring-beans-4.0.3.RELEASE.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/repository/joda-time/joda-time/2.9/joda-time-2.9.jar" />
+          <entry name="$PROJECT_DIR$/../../../maven/repository/org/projectlombok/lombok/1.16.14/lombok-1.16.14.jar" />
+        </processorPath>
+        <module name="supply-chain-dependencies" />
+        <module name="shop-web-app" />
+        <module name="supplychain-spring-boot-starter-mybatis" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="supplychain-security-annotations" />
+        <module name="supplychain-spring-boot-starter-security-admin" />
+        <module name="supplychain-spring-boot" />
+        <module name="supplychain-spring-boot-starter-security-user" />
+        <module name="supplychain-spring-boot-starter-swagger" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="common-framework" target="1.5" />
+      <module name="shop-web-app" target="1.8" />
+      <module name="supply-chain" target="1.8" />
+      <module name="supply-chain-dependencies" target="1.8" />
+      <module name="supplychain-security-annotations" target="1.8" />
+      <module name="supplychain-spring-boot" target="1.8" />
+      <module name="supplychain-spring-boot-starter-mybatis" target="1.8" />
+      <module name="supplychain-spring-boot-starter-security-admin" target="1.8" />
+      <module name="supplychain-spring-boot-starter-security-user" target="1.8" />
+      <module name="supplychain-spring-boot-starter-swagger" target="1.8" />
+      <module name="system-service" target="1.8" />
+      <module name="system-service-app" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shop-web-app" options="-parameters" />
+      <module name="supply-chain" options="-parameters" />
+      <module name="supply-chain-dependencies" options="-parameters" />
+      <module name="supplychain-security-annotations" options="-parameters" />
+      <module name="supplychain-spring-boot-starter-dubbo" options="-parameters" />
+      <module name="supplychain-spring-boot-starter-mybatis" options="-parameters" />
+      <module name="supplychain-spring-boot-starter-redis" options="-parameters" />
+      <module name="supplychain-spring-boot-starter-rocketmq" options="-parameters" />
+      <module name="supplychain-spring-boot-starter-security-admin" options="-parameters" />
+      <module name="supplychain-spring-boot-starter-security-user" options="-parameters" />
+      <module name="supplychain-spring-boot-starter-sentry" options="-parameters" />
+      <module name="supplychain-spring-boot-starter-system-error-code" options="-parameters" />
+      <module name="supplychain-spring-boot-starter-web" options="-parameters" />
+      <module name="supplychain-spring-boot-starter-xxl-job" options="-parameters" />
+      <module name="system-service" options="-parameters" />
+      <module name="system-service-api" options="-parameters" />
+    </option>
+  </component>
+</project>

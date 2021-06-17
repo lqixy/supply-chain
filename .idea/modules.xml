@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-framework/common-framework.iml" filepath="$PROJECT_DIR$/common/common-framework/common-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shop-web-app/shop-web-app.iml" filepath="$PROJECT_DIR$/shop-web-app/shop-web-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/supply-chain.iml" filepath="$PROJECT_DIR$/.idea/supply-chain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supply-chain-dependencies/supply-chain-dependencies.iml" filepath="$PROJECT_DIR$/supply-chain-dependencies/supply-chain-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/supplychain-security-annotations/supplychain-security-annotations.iml" filepath="$PROJECT_DIR$/common/supplychain-security-annotations/supplychain-security-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/supplychain-spring-boot/supplychain-spring-boot.iml" filepath="$PROJECT_DIR$/common/supplychain-spring-boot/supplychain-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/supplychain-spring-boot-starter-dubbo/supplychain-spring-boot-starter-dubbo.iml" filepath="$PROJECT_DIR$/common/supplychain-spring-boot-starter-dubbo/supplychain-spring-boot-starter-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/supplychain-spring-boot-starter-mybatis/supplychain-spring-boot-starter-mybatis.iml" filepath="$PROJECT_DIR$/common/supplychain-spring-boot-starter-mybatis/supplychain-spring-boot-starter-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/supplychain-spring-boot-starter-redis/supplychain-spring-boot-starter-redis.iml" filepath="$PROJECT_DIR$/common/supplychain-spring-boot-starter-redis/supplychain-spring-boot-starter-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/supplychain-spring-boot-starter-rocketmq/supplychain-spring-boot-starter-rocketmq.iml" filepath="$PROJECT_DIR$/common/supplychain-spring-boot-starter-rocketmq/supplychain-spring-boot-starter-rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/supplychain-spring-boot-starter-security-admin/supplychain-spring-boot-starter-security-admin.iml" filepath="$PROJECT_DIR$/common/supplychain-spring-boot-starter-security-admin/supplychain-spring-boot-starter-security-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/supplychain-spring-boot-starter-security-user/supplychain-spring-boot-starter-security-user.iml" filepath="$PROJECT_DIR$/common/supplychain-spring-boot-starter-security-user/supplychain-spring-boot-starter-security-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/supplychain-spring-boot-starter-sentry/supplychain-spring-boot-starter-sentry.iml" filepath="$PROJECT_DIR$/common/supplychain-spring-boot-starter-sentry/supplychain-spring-boot-starter-sentry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/supplychain-spring-boot-starter-swagger/supplychain-spring-boot-starter-swagger.iml" filepath="$PROJECT_DIR$/common/supplychain-spring-boot-starter-swagger/supplychain-spring-boot-starter-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/supplychain-spring-boot-starter-system-error-code/supplychain-spring-boot-starter-system-error-code.iml" filepath="$PROJECT_DIR$/common/supplychain-spring-boot-starter-system-error-code/supplychain-spring-boot-starter-system-error-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/supplychain-spring-boot-starter-web/supplychain-spring-boot-starter-web.iml" filepath="$PROJECT_DIR$/common/supplychain-spring-boot-starter-web/supplychain-spring-boot-starter-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/supplychain-spring-boot-starter-xxl-job/supplychain-spring-boot-starter-xxl-job.iml" filepath="$PROJECT_DIR$/common/supplychain-spring-boot-starter-xxl-job/supplychain-spring-boot-starter-xxl-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system-service/system-service.iml" filepath="$PROJECT_DIR$/system-service/system-service.iml" />
+    </modules>
+  </component>
+</project>
